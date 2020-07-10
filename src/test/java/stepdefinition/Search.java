@@ -17,7 +17,10 @@ public class Search extends CucumberRunner {
 				Assert.assertEquals(title, "cucumber - Google Search");
 			} else if(text == "junit") {
 				Assert.assertEquals(title, "junit - Google Search");
-			}   		
+			}
+			else if(text == "test2") {
+				Assert.assertEquals(title, "test2 - Google Search");
+			}
 	}
 
 }
